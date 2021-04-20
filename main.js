@@ -6,11 +6,11 @@ const overlay = document.querySelector('.overlay');
 
 
 //Displaying thumbBar Images
-var images = ['images/pic1.jpg',
-              'images/pic2.jpg',
-              'images/pic3.jpg',
-              'images/pic4.jpg',
-              'images/pic5.jpg'];
+var images = ['pic1.jpg',
+              'pic2.jpg',
+              'pic3.jpg',
+              'pic4.jpg',
+              'pic5.jpg'];
               
 function createImageNode() {
     var imgs = document.createElement('img');
